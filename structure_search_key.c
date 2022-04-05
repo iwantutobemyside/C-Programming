@@ -27,7 +27,7 @@ int main()
         printf("%s %s %d years old.\n", list[i].name, list[i].sur, list[i].age);
     }
     
-    printf("Please enter keyword: ");
+    printf("Please enter keyword to search: ");
     scanf("%s", key);
     
     for (int i=0; i<=4; i++)
